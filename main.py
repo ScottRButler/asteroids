@@ -71,7 +71,7 @@ def main():
         # --- Collision Detection (Manual Loops) ---
         # Check Player vs Asteroids
         for asteroid in pygame.sprite.Group.sprites(asteroids): # Iterate safely over a copy
-            if player.    alive() and player.collides_with(asteroid): # Check if player still alive
+            if player.alive() and player.collides_with(asteroid): # Check if player still alive
                 print(f"Game over! Final Score: {score}")
                 player.kill() # Remove player from groups
                 running = False # Stop the game loop
