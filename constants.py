@@ -5,7 +5,7 @@ ASTEROID_MIN_RADIUS = 20
 ASTEROID_KINDS = 3
 ASTEROID_SPAWN_RATE = 0.8  # seconds
 ASTEROID_MAX_RADIUS = ASTEROID_MIN_RADIUS * ASTEROID_KINDS
-ASTEROID_VERTICES = 12  # Number of points for the jagged shape
+ASTEROID_VERTICES = 24  # Number of points for the jagged shape
 ASTEROID_RADIUS_VARIATION = 0.4 # How much the radius can vary per point (0.0 = circle, 0.5 = +/- 50%)
 
 
