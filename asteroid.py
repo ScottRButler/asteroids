@@ -36,7 +36,7 @@ class Asteroid(CircleShape):
             absolute_points.append(self.position + point)
             
         # Draw the polygon using the calculated screen points
-        pygame.draw.polygon(screen, "white", absolute_points, 2)
+        pygame.draw.polygon(screen, "green", absolute_points, 2)
 
     def update(self, dt):
         self.position += self.velocity * dt
