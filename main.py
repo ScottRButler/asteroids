@@ -27,7 +27,7 @@ def main():
     # Create a font object: Use default system font, size 36
     # You can replace None with a specific font file path or system font name like 'arial'
     score_font = pygame.font.Font(None, 36)
-    score_color = "white"
+    score_color = "blue"
     # --------------------------
 
     # Create sprite groups

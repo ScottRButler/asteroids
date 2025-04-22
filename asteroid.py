@@ -83,8 +83,3 @@ class Asteroid(CircleShape):
         asteroid1.velocity = velocity_1
         asteroid2.velocity = velocity_2
 
-        # No need to manually add to containers here if Asteroid.containers is set correctly
-        # The Asteroid.__init__ calls super().__init__(self.containers) which handles adding
-        # to the groups defined in Asteroid.containers.
-        # If that wasn't working before, ensure Asteroid.containers is set *before* any
-        # Asteroid instances are created (which seems to be the case in main.py).
